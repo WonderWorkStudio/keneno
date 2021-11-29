@@ -1,0 +1,375 @@
+@charset "UTF-8";
+
+body{
+	-webkit-font-smoothing:antialiased;
+}
+* {
+  background-image: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+  background-position:top;
+}
+
+
+
+p{
+	font-family: "Sawarabi Mincho";
+	font-size:15px;
+	letter-spacing: 6px;
+	line-height:20px;
+}
+
+.subp{
+	font-family: "Sawarabi Mincho";
+	font-size:25px;
+	letter-spacing: 6px;
+	line-height:20px;
+}
+
+header{
+	font-family: 'Geo', sans-serif;
+	text-align:center;
+	margin:0 auto;
+	position:fixed;
+	width:100%;
+}
+
+header h1{
+	font-family: 'Geo', sans-serif;
+	color:rgb(255, 255, 255);
+	padding:90px 0px;
+	font-size:90px;
+	font-weight:bold;
+	transition: padding .3s, font-size .3s;
+	display:block;
+}
+
+header nav{
+	color:rgb(255, 255, 255);
+	position:absolute;
+	top:175px;
+	right:30px;
+	transition: top .3s;
+	font-size:24px;
+}
+
+header.small h1{
+	color:rgb(255, 255, 255);
+	padding:25px;	
+	font-family: 'Geo', sans-serif;
+	font-size:2em;
+
+}
+
+header.small nav{
+	color:rgb(255, 255, 255);
+	top:30px;
+}
+
+li{
+	float:left;
+	margin-left:10px;
+	list-style-type:none;
+	font-weight:bold;
+}
+
+li a{
+	text-decoration:none;
+	color:rgb(255, 255, 255)
+}
+
+li a:hover{
+	color:rgb(126, 119, 119);
+}
+
+main{
+	padding:300px 25px 20px;
+	clear:both;
+}
+
+.top_p{
+	width:50%;
+	padding-top:200px;
+	padding-bottom:300px;
+	padding-right:30px;
+	float:right;
+
+}
+	
+
+.top_p img{
+	width:40%;
+	height:auto;
+	float:right;
+	border:solid 1px rgb(255, 255, 255);
+}
+
+.about {
+	width:100%;
+	float:right;
+	padding-top:300px;
+	padding-bottom:300px;
+	padding-left:10px;
+	padding-right:10px;
+	color: rgb(255, 255, 255)2;
+;
+}
+
+.about h1{
+	font-family: 'Geo', sans-serif;
+	font-size:2em;
+	font-weight:bold;
+	padding-top:120px;
+	padding-bottom:50px;
+	text-align:center;
+	background-color: rgba(255,255,255,0.5);
+	color:rgb(255, 255, 255);
+	/*border-bottom:solid #FFF 1px;*/
+}
+
+.about h2{
+	font-weight:bold;
+	font-size:2em;
+	padding-top:0px;
+	padding-bottom:10px;
+	text-align:center;
+	background-color: rgba(255,255,255,0.5);
+	color:rgb(255, 255, 255);
+	width: 100;
+}
+
+.about h3{
+	font-size:1.5em;
+	line-height:1.7em;
+	text-decoration : underline;
+	font-weight:bold;
+	padding-top:10px;
+	padding-bottom:30px;
+	text-align:center;
+	background-color: rgba(255,255,255,0.5);
+	color:rgb(255, 255, 255);
+}
+
+.about p{
+	width:95%;
+	float:right;
+	/*font-family: 'Geo', sans-serif;*/
+	font-weight:bold;
+	text-align:left;
+	line-height:1.5em;
+	font-size:1em;
+	background-color: rgba(255,255,255,0.5);
+	color:rgb(255, 255, 255);
+}
+
+.about span{
+	font-family: 'Geo', sans-serif;
+	font-size:1.4em;
+	line-height:1.6em;
+	width:100%;
+	float:center;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:0px;
+	padding-right:0px;
+	color: rgb(255, 255, 255)2;
+}
+
+
+
+.product {
+	width:80%;	
+	padding-top:300px;
+	padding-bottom:300px;
+	float:reft;
+	margin:0 auto;
+	clear:both;
+	
+}
+
+
+.product h1{
+	padding-top:120px;
+	padding-bottom:50px;
+	font-family: 'Geo', sans-serif;
+	font-size:2em;
+	font-weight:bold;
+	color:rgb(255, 255, 255);
+	text-align:center;
+	
+}
+
+.product h4{
+	font-size:20px;
+	padding-bottom:20px;
+	color:rgb(255, 255, 255);
+	text-align:center;
+	font-family: "Sawarabi Mincho";
+}
+
+
+.product p {
+	text-align:center;
+}
+.product img {
+	width:15%;
+	height:auto;
+	margin:0 auto;
+	border:solid rgb(255, 255, 255) 1px;
+
+}
+
+.product img:hover {
+	opacity: 0.5 ;
+}
+.product a{	
+	color:rgb(255, 255, 255);
+	
+}
+
+.product a:hover{
+	color:rgb(126, 119, 119);
+}
+
+.shop {
+	width:100%;
+	padding-top:300px;
+	padding-bottom:300px;
+	float:right;
+	color: rgb(255, 255, 255);
+	clear:both;
+}
+
+.shop h1{
+	font-family: 'Geo', sans-serif;
+	font-size:2em;
+	padding-top:120px;
+	padding-bottom:0px;
+	font-weight:bold;
+	padding-bottom:50px;
+	color:rgb(255, 255, 255);
+	text-align:center;
+}
+
+.shop img{
+	width:35%;
+	float:left;
+	border:solid rgb(255, 255, 255) 1px;
+}
+
+.shop span {
+	font-family: "Sawarabi Mincho";
+	font-size: 14px;
+	border-bottom:solid rgb(255, 255, 255) 1px;
+	margin-bottom:30px;
+	font-weight:bold;
+	text-align:center;	
+}
+	
+.shop p {
+	width:95%;
+	float:right;
+	/*font-family: 'Geo', sans-serif;*/
+	font-weight:bold;
+	text-align:left;
+	line-height:1.5em;
+	font-size:1em;
+	background-color: rgba(255,255,255,0.5);
+	color:rgb(255, 255, 255);
+}
+
+.mail {
+	width:50%;
+	padding-top:250px;
+	padding-bottom:500px;
+	vertical-align:top;
+	font-family: "Sawarabi Mincho";
+	font-size:12px;
+	float:right;
+	clear:both;
+	color:rgb(255, 255, 255);
+}
+
+.mail p{
+	text-align:center;
+}
+
+.mail h1{
+	font-family: 'Geo', sans-serif;
+	padding-top:200px;
+	font-size:2em;
+	font-weight:bold;
+	padding-bottom:50px;
+	text-align:center;
+	color:rgb(255, 255, 255);
+}
+
+dl.form dl,dt,dd {
+margin: 0;
+padding: 0;
+color:rgb(255, 255, 255);
+}
+
+dl.form{
+border-top: none;
+width: 80%;
+color:rgb(255, 255, 255);
+}
+dl.form dt,dd {
+padding: 6px;
+color:rgb(255, 255, 255);
+}
+dl.form dt {
+clear: left;
+float: left;
+width: 26%;
+color:rgb(255, 255, 255);
+}
+dl.form dd {
+margin-left: 27%;
+color:rgb(255, 255, 255);
+}
+
+.input {
+	border:solid rgb(255, 255, 255) 1px;
+}
+.form {
+	margin:0 auto;
+	color:rgb(255, 255, 255);
+}
+
+footer {
+	width:100%;
+	height:auto;
+	padding:60px;
+	margin:0 auto;
+	font-size:18px;
+	clear:both;
+	text-align:center;
+	color:rgb(255, 255, 255);
+}
+
+footer ul {
+	overflow:hidden;
+	margin:0 auto;
+	text-align:center;
+	color:rgb(255, 255, 255);
+}
+
+footer ul li {
+	text-align:center;
+	display:inline-block;
+	color:rgb(255, 255, 255);
+}
+
+.submitbutton {
+	color:rgb(255, 255, 255);
+}
+
+
+input, textarea{
+	color: #ffffff;
+	}
+
+	
