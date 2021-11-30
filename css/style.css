@@ -16,7 +16,7 @@ body{
 p{
 	font-family: "Sawarabi Mincho";
 	font-size:15px;
-	letter-spacing: 6px;
+	letter-spacing: 0px;
 	line-height:20px;
 }
 
@@ -156,7 +156,7 @@ main{
 	width:95%;
 	float:right;
 	font-weight:normal;
-	text-align:left;
+	text-align:center;
 	line-height:1.5em;
 	font-size:1.2em;
 	background-color: rgba(255,255,255,0.5);
@@ -176,13 +176,13 @@ main{
 }
 
 .about p{
+	font-family: "Sawarabi Mincho";
 	width:95%;
 	float:right;
-	/*font-family: 'Geo', sans-serif;*/
-	font-weight:bold;
+	font-weight:normal;
 	text-align:left;
 	line-height:1.5em;
-	font-size:1em;
+	font-size:1.2em;
 	background-color: rgba(255,255,255,0.5);
 	color:rgb(255, 255, 255);
 }
@@ -234,8 +234,13 @@ main{
 
 
 .product p {
+	font-family: "Sawarabi Mincho";
+	font-size:20px;
+	padding-bottom:20px;
+	color:rgb(255, 255, 255);
 	text-align:center;
 }
+
 .product img {
 	width:15%;
 	height:auto;
@@ -305,13 +310,13 @@ main{
 
 	
 .shop p {
+	font-family: "Sawarabi Mincho";
 	width:95%;
 	float:right;
-	/*font-family: 'Geo', sans-serif;*/
-	font-weight:bold;
+	font-weight:normal;
 	text-align:left;
 	line-height:1.5em;
-	font-size:1em;
+	font-size:1.2em;
 	background-color: rgba(255,255,255,0.5);
 	color:rgb(255, 255, 255);
 }
