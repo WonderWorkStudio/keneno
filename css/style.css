@@ -121,7 +121,7 @@ main{
 	font-size:2em;
 	font-weight:bold;
 	padding-top:120px;
-	padding-bottom:50px;
+	padding-bottom:80px;
 	text-align:center;
 	background-color: rgba(255,255,255,0.5);
 	color:rgb(255, 255, 255);
@@ -132,7 +132,7 @@ main{
 	font-weight:bold;
 	font-size:2em;
 	padding-top:0px;
-	padding-bottom:10px;
+	padding-bottom:20px;
 	text-align:center;
 	background-color: rgba(255,255,255,0.5);
 	color:rgb(255, 255, 255);
@@ -141,12 +141,36 @@ main{
 
 .about h3{
 	font-size:1.5em;
-	line-height:1.7em;
+	line-height:1.6em;
 	text-decoration : underline;
 	font-weight:bold;
 	padding-top:10px;
 	padding-bottom:30px;
 	text-align:center;
+	background-color: rgba(255,255,255,0.5);
+	color:rgb(255, 255, 255);
+}
+
+.about h4{
+	font-family: "Sawarabi Mincho";
+	width:95%;
+	float:right;
+	font-weight:normal;
+	text-align:left;
+	line-height:1.5em;
+	font-size:1.2em;
+	background-color: rgba(255,255,255,0.5);
+	color:rgb(255, 255, 255);
+}
+
+.about h5{
+	font-family: "Sawarabi Mincho";
+	width:95%;
+	float:right;
+	font-weight:normal;
+	text-align:center;
+	line-height:1.5em;
+	font-size:1.2em;
 	background-color: rgba(255,255,255,0.5);
 	color:rgb(255, 255, 255);
 }
@@ -200,12 +224,12 @@ main{
 	
 }
 
-.product h4{
+.product h2{
+	font-family: "Sawarabi Mincho";
 	font-size:20px;
 	padding-bottom:20px;
 	color:rgb(255, 255, 255);
 	text-align:center;
-	font-family: "Sawarabi Mincho";
 }
 
 
@@ -252,6 +276,18 @@ main{
 	text-align:center;
 }
 
+.shop h2 {
+	font-family: "Sawarabi Mincho";
+	width:95%;
+	float:right;
+	font-weight:normal;
+	text-align:left;
+	line-height:1.5em;
+	font-size:1.2em;
+	background-color: rgba(255,255,255,0.5);
+	color:rgb(255, 255, 255);
+	}
+
 .shop img{
 	width:35%;
 	float:left;
@@ -266,6 +302,7 @@ main{
 	font-weight:bold;
 	text-align:center;	
 }
+
 	
 .shop p {
 	width:95%;
